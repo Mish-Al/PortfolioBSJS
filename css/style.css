@@ -40,7 +40,7 @@ body{
     right: 0;
     content: '';
     width: 4px;
-    height: 45vh;
+    /* height: 45vh; */
     border-right: 2px solid var(--primary);
 }
 .card:nth-child(even) {
@@ -91,3 +91,27 @@ body{
         content: none;
     }
 }
+.progress{
+    margin: 1rem;
+}
+.progress-html{
+    background-color:rgb(168, 192, 192);
+}
+.progress-css{
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+.progress-bs{
+    background-color: rgb(185, 185, 185);
+}
+.progress-js{
+    background-color: cadetblue;
+    color: white;
+}
+body{
+    background-color: rgb(197, 196, 193);
+}
+.navbar{
+    background-color: rgb(131, 137, 137);
+}
+

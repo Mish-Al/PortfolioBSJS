@@ -14,7 +14,7 @@ body{
     --secondary: white;
     --alternative: hsl(0, 0%, 66%);
     --awesomeColor: rgb(152, 153, 155);
-    --green: rgb(119, 164, 119);
+    --green: white;
     --mainBox-shadow: -8px -3px 23px 5px rgba(105,96,96,0.75);
 }
 /* Education */
@@ -114,4 +114,18 @@ body{
 .navbar{
     background-color: rgb(131, 137, 137);
 }
-
+#card-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+#card-body img {
+width: 300px;
+height: 500px;
+object-fit: cover;
+border-radius: 20px;
+}
+#card-body p{
+    font-size: large;
+}

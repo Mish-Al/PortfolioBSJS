@@ -129,3 +129,9 @@ border-radius: 20px;
 #card-body p{
     font-size: large;
 }
+#next{
+    background-color: black;
+}
+#prev{
+    background-color: black;
+}

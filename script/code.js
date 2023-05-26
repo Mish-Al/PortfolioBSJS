@@ -1,6 +1,6 @@
 // About section
 let about = document.querySelector('section#about .row:last-child');
-let aboutContents = ["I am an individual who loves spreading postivity wherever I go, regardless of the situation. I am 20 years of age and I was born on 31 May 2002. I am from Athlone and I follow the Islamic Way of Life.", "I attended Groenvlei High School which is based in Lansdowne. I started high school in 2016 and I completed high school with a Diploma Pass. Thereafter, the only other education programme that I participated in is the Life Choices Academys Coding Programme."
+let aboutContents = ["I am an individual who loves spreading postivity wherever I go, regardless of the situation. I am 20 years of age and I was born on 31 May 2002. I am from Athlone and I follow the Islamic Way of Life.","I am a dancer and I have been dancing for about 11 years. I enjoy laearning about the tech industry, specifically smartphones, gadgets and upcoming inventions.", "I attended Groenvlei High School which is based in Lansdowne. I started high school in 2016 and I completed high school ,in 2020, with a Diploma Pass. Thereafter, the only other education programme that I participated in is the Life Choices Academys Coding Programme."
 ] 
 
 // Loop through the contents
@@ -35,5 +35,15 @@ education.forEach((data)=> {
     </div>
     `
 })
+let skills = document.querySelector('section#skills .row');
+let skillsContents = ["Some of my skills include adaptablity, creativity, problem solving and interpersonal skills.", "In addition to this, I have these basic web development skills."]
+
+skillsContents.forEach( (content)=>{
+    skills.innerHTML += `
+        <p class="lead">${content}</p>
+    `
+} )
+
+
 
 
